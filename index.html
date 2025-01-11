@@ -3,48 +3,72 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>AWESOME_BOOKS</title>
+    <title>Awesome Books</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-   
+    <header>
+        <div class="logo"><h1>Ciara's  Books</h1></div>
+        <nav>
 
- <header>
-       
-<div class="logo"><p>Ciara Books</p></div>
-<nav>
-    <div class="items">
-    <ul>
-        <li><a href="#list_display">List | </a></li>
-        <li class="more"><a href="#addition">Add | </a></li>
-        <li><a href="#Contact">Contact  </a></li>
-    </ul>
-</div>
-<div class="dateTime">
-    <p id="dateTime"></p>
-</div>
-</nav>
-    </header> 
+           
+            <div class="mobile_items">
+           
+                <ul>
+                    <li><a href="#books" id="booksLink">List |</a></li> 
+                    <li><a href="#addBook" id="addBookLink">Add |</a></li> 
+                     <li><a href="#contact" id="contactLink">Contact </a></li>
+                 </ul>
+               
+                </div>
 
-<main>
-    <section class="add">
-        <div class="adding">
-            <h1 class="adding_h2">Add a new book</h1>
-            <form action="">
-                <input type="text" placeholder="Title" required maxlength="25" id="add"><br><br>
-                <input type="text" placeholder="Author" required maxlength="20" id="mora"><br><br>
-                <button type="submit" onclick="addTask()">Add</button>
-            </form>
-            <ul id="List"></ul>
-        </div>
-        <footer>
-            <div  class="commons">
-                 <p>Copyright   - </p>
-             </div>
-         </footer>
-       
+                <div class="dateTime">
+                    <p id="dateTime"></p>
+                </div>
+                 </nav>
+               
+           
+    </header>
+
+    <section id="books" class="hidden">
+        <h2 class="hidden_h2">All Awesome Books</h2>
+      <div class="marol">
+        <ul id="List">
+        </ul>
+    </div>
     </section>
- </main>
-   <script src="script.js"></script>
+
+    <section id="addBook">
+        <div class="adding">
+        <h2>Add a New Book</h2>
+    </div>
+    <div class="adding input">
+        <input type="text" id="add" placeholder="Title" maxlength="30"><br><br>
+        <input type="text" id="mora" placeholder="Author" maxlength="30"><br><br>
+        <button id="addTaskButton">Add</button>
+    </div>
+    </section>
+
+    <section id="contact" class="hidden">
+        <h2 class="hidden_h2">Contact Information</h2>
+        <p class="phone">Do have any questions or you just want to say "Hello"</p>
+        <span><p class="inputs">you can reach out to!</p></span>
+        <div class="tag">
+            <p class="tag1">.   Our e-mail:ceriangapu@gmail.com</p>
+            <p class="tag2">.   Our phone number:2343586534422</p>
+            <p class="tag3">. Our address:Ikpola 22,84503 lagos, Nigeria</p>
+        </div>
+    </section>
+
+    <footer>
+        <div class="commons">
+            <p>Copyright © 2025</p>
+        </div>
+       
+    </footer>
+
+    <script src="script.js"></script>
 </body>
 </html>
+
+
