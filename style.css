@@ -92,13 +92,14 @@
   .hidden_h2 {
     text-align: center;
     font-size: 30px;
+    margin-left: 40px;
   }
 
   .marol button {
     box-shadow: 5px 5px 8px 5px;
     border-radius: 5px;
     font-size: 20px;
-    margin-left: 50px;
+    margin-left: 80px ;
   }
 
   .marol ul {
@@ -107,6 +108,7 @@
     font-size: 20px;
     gap: 0;
     width: 300px;
+   
   }
 
   /* information section */
