@@ -79,7 +79,7 @@ class LibraryApp {
   showBooks() {
     LibraryApp.hideAllSections();
     document.getElementById('books').classList.remove('hidden');
-    this.displayBooks(); 
+    this.displayBooks();
   }
 
   static showAddBook() {
