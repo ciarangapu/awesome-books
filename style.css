@@ -146,7 +146,7 @@
     margin: 20px;
     margin-right: 900px;
     font-size: 20px;
-    width: 32%;
+    width: 92%;
     font-weight: 900;
     bottom: 0;
     position: fixed;
@@ -209,11 +209,11 @@
   }
 
   .adding input {
-    font-weight: 900;
+     font-weight: 900;
     width: 300px;
     border: 2px solid black;
     height: 30px;
-    border-radius: 5px;
+    border-radius: 5px; 
   }
 
   .adding {
@@ -227,6 +227,7 @@
     margin-left: 230px;
     border-radius: 4px;
     box-shadow: 5px 5px 8px;
+    /* position: fixed; */
   }
 
   button:hover {
@@ -298,7 +299,7 @@
     margin: 20px;
     margin-right: 900px;
     font-size: 20px;
-    width: 52%;
+    width: 92%;
     font-weight: 900;
     bottom: 0;
     position: fixed;

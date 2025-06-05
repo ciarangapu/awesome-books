@@ -58,7 +58,8 @@ class LibraryApp {
     });
   }
 
-  removeBook(index) {
+  removeBook(index) 
+  {
     this.books.splice(index, 1);
     this.displayBooks();
     this.saveToLocalStorage(); // Save to local storage
@@ -68,7 +69,8 @@ class LibraryApp {
     localStorage.setItem('books', JSON.stringify(this.books));
   }
 
-  loadFromLocalStorage() {
+  loadFromLocalStorage() 
+  {
     const storedBooks = localStorage.getItem('books');
     if (storedBooks) {
       this.books = JSON.parse(storedBooks);
